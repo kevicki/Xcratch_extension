@@ -13419,7 +13419,7 @@ var setupTranslations = function setupTranslations(formatMessage) {
   var extTranslations = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
   var localeSetup = formatMessage.setup();
   var translations = {
-    'zh': {
+    'zh-cn': {
       'legobluetooth.motorPWM': '将马达 [PORT] 的功率设置为 [POWER] %',
       'legobluetooth.motorStop': '停止马达 [PORT] ',
       'legobluetooth.motorRunFor': '使马达[PORT] 向 [DIRECTION] 方向 转动[VALUE] [UNIT]',
