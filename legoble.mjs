@@ -8267,18 +8267,19 @@ addLocaleData(allLocaleData);
 
 var img$2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAF0CAYAAAD/4EcMAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAACWKADAAQAAAABAAABdAAAAAA/5BwtAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAASeUlEQVR4Ae3WsQ0AIAwEMWDxjA4SM1zpDPCFleL2zNzlCBAgQIAAAQIEMoGTLRkiQIAAAQIECBD4AgLLIxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECAgsP0CAAAECBAgQiAUEVgxqjgABAgQIECAgsPwAAQIECBAgQCAWEFgxqDkCBAgQIECAgMDyAwQIECBAgACBWEBgxaDmCBAgQIAAAQICyw8QIECAAAECBGIBgRWDmiNAgAABAgQICCw/QIAAAQIECBCIBQRWDGqOAAECBAgQICCw/AABAgQIECBAIBYQWDGoOQIECBAgQICAwPIDBAgQIECAAIFYQGDFoOYIECBAgAABAgLLDxAgQIAAAQIEYgGBFYOaI0CAAAECBAgILD9AgAABAgQIEIgFBFYMao4AAQIECBAgILD8AAECBAgQIEAgFhBYMag5AgQIECBAgIDA8gMECBAgQIAAgVhAYMWg5ggQIECAAAECAssPECBAgAABAgRiAYEVg5ojQIAAAQIECDyApAVkM1IiGwAAAABJRU5ErkJggg==";
 
-var img$1 = "data:image/svg+xml,%3c%3fxml version='1.0' encoding='UTF-8'%3f%3e%3csvg width='40px' height='40px' viewBox='0 0 40 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e %3ctitle%3elegoble-small%3c/title%3e %3cg id='legoble-small' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3e %3cg id='Group' transform='translate(4.500000%2c 11.500000)'%3e %3cpath d='M28.5%2c0 C29.8807119%2c0 31%2c1.11928813 31%2c2.5 L31%2c14.5 C31%2c15.8807119 29.8807119%2c17 28.5%2c17 L25.5%2c17 C24.1192881%2c17 23%2c15.8807119 23%2c14.5 L23%2c14 L8%2c14 L8%2c14.5 C8%2c15.8807119 6.88071187%2c17 5.5%2c17 L2.5%2c17 C1.11928813%2c17 0%2c15.8807119 0%2c14.5 L0%2c2.5 C0%2c1.11928813 1.11928813%2c0 2.5%2c0 L28.5%2c0 Z' id='Path' stroke='%237F7F7F' fill='%23E6E7E8'%3e%3c/path%3e %3cpolygon id='Path' fill='%237F7F7F' points='28.5 2.5 28.5 14.5 25.5 14.5 25.5 11.5 5.5 11.5 5.5 14.5 2.5 14.5 2.5 2.5'%3e%3c/polygon%3e %3c/g%3e %3c/g%3e%3c/svg%3e";
+var img$1 = "data:image/svg+xml,%3c%3fxml version='1.0' encoding='UTF-8'%3f%3e%3csvg width='40px' height='40px' viewBox='0 0 40 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e %3c!-- Generator: Sketch 64 (93537) - https://sketch.com --%3e %3ctitle%3elegoble-small%3c/title%3e %3cdesc%3eCreated with Sketch.%3c/desc%3e %3cg id='legoble-small' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3e %3cg id='Group' transform='translate(4.000000%2c 11.000000)'%3e %3cpath d='M30%2c0 C31.1045695%2c-2.02906125e-16 32%2c0.8954305 32%2c2 L32%2c16 C32%2c17.1045695 31.1045695%2c18 30%2c18 L25%2c18 C23.8954305%2c18 23%2c17.1045695 23%2c16 L23%2c15 L9%2c15 L9%2c16 C9%2c17.1045695 8.1045695%2c18 7%2c18 L2%2c18 C0.8954305%2c18 1.3527075e-16%2c17.1045695 0%2c16 L0%2c2 C-1.3527075e-16%2c0.8954305 0.8954305%2c2.02906125e-16 2%2c0 L30%2c0 Z' id='Combined-Shape' stroke='%237F7F7F' fill='%23BABAB9'%3e%3c/path%3e %3cpath d='M29%2c15 L26%2c15 L26%2c12 L6%2c12 L6%2c15 L3%2c15 L3%2c3 L29%2c3 L29%2c15 Z' id='Combined-Shape' fill='%237F7F7F'%3e%3c/path%3e %3c/g%3e %3c/g%3e%3c/svg%3e";
 
 var img = "data:image/svg+xml,%3csvg width='204' height='72' viewBox='0 0 204 72' xmlns='http://www.w3.org/2000/svg'%3e%3cg fill='none' fill-rule='evenodd'%3e%3cpath stroke='%237C87A5' fill='white' fill-rule='nonzero' stroke-linecap='round' stroke-linejoin='round' d='M100 24h100v40H100z'/%3e%3cpath d='M76 8h-8V5c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M73.3 4v4H76V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M76 8h-8V5c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M64 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M61.3 4v4H64V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M64 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M52 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M49.3 4v4H52V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M52 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M40 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M37.3 4v4H40V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M40 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M28 8h-8V5c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M25.3 4v4H28V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M28 8h-8V5c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M16 8H8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M13.3 4v4H16V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M16 8H8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M172 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M169.3 4v4h2.7V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M172 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M160 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M157.3 4v4h2.7V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M160 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M148 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M145.3 4v4h2.7V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M148 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M136 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M133.3 4v4h2.7V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M136 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M124 8h-8V5c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M121.3 4v4h2.7V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M124 8h-8V5c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M112 8h-8V5c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M109.3 4v4h2.7V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M112 8h-8V5c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M198 8H6a2 2 0 0 0-2 2v14h196V10a2 2 0 0 0-2-2z' stroke='%237C87A5' fill='white' fill-rule='nonzero' stroke-linecap='round' stroke-linejoin='round'/%3e%3cg stroke-linecap='round' stroke-linejoin='round'%3e%3cpath stroke='%237C87A5' fill='%23E6E7E8' fill-rule='nonzero' d='M100 20h-2v-2H82v2h-2V10h20z'/%3e%3cpath stroke='%237C87A5' fill='%237C87A5' fill-rule='nonzero' d='M82 12.1h16V18H82z'/%3e%3cpath d='M84 17v-1M86 17v-1M90 17v-1M94 17v-1M88 17v-1M92 17v-1M96 17v-1' stroke='%23E6E7E8'/%3e%3c/g%3e%3cg%3e%3cpath d='M196 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M193.3 4v4h2.7V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M196 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cpath d='M200 24H4v-4h190a2 2 0 0 0 2-2V8h2a2 2 0 0 1 2 2v14z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cg%3e%3cpath d='M184 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M181.3 4v4h2.7V4.7c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M184 8h-8V5c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cg%3e%3cpath d='M76 24h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M73.3 20v4H76v-3.3c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M76 24h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cg%3e%3cpath d='M64 24h-8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M61.3 20v4H64v-3.3c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M64 24h-8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cg%3e%3cpath d='M124 44h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M121.3 40v4h2.7v-3.3c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M124 44h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cg%3e%3cpath d='M112 44h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M109.3 40v4h2.7v-3.3c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M112 44h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cg%3e%3cpath d='M52 24h-8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M49.3 20v4H52v-3.3c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M52 24h-8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cg%3e%3cpath d='M40 24h-8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M37.3 20v4H40v-3.3c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M40 24h-8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cg%3e%3cpath d='M28 24h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M25.3 20v4H28v-3.3c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M28 24h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cg%3e%3cpath d='M16 24H8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M13.3 20v4H16v-3.3c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M16 24H8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cpath d='M100 68H6a2 2 0 0 1-2-2v-2h84v-4h12v8z' stroke='%237C87A5' fill='%23E6E7E8' fill-rule='nonzero' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath stroke='%237C87A5' fill='%23E6E7E8' fill-rule='nonzero' stroke-linecap='round' stroke-linejoin='round' d='M4 36v28h84V44H64l-12-8zM100 68h98a2 2 0 0 0 2-2v-2H100v4z'/%3e%3cpath d='M200 24v42a2 2 0 0 1-2 2h-98V24h4v14c0 1.1.9 2 2 2h24a2 2 0 0 1 2 2v16c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V42c0-1.1.9-2 2-2h48a2 2 0 0 0 2-2V24h4z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M100 24H4v12h48l12 8h24v16h38a2 2 0 0 0 2-2V46a2 2 0 0 0-2-2h-26V24z' stroke='%237C87A5' fill='white' fill-rule='nonzero' stroke-linecap='round' stroke-linejoin='round'/%3e%3cg transform='translate(12 44)'%3e%3ccircle fill='%23CC4C23' fill-rule='nonzero' cx='6' cy='6' r='6'/%3e%3ccircle stroke='%23231F20' stroke-width='2' opacity='.1' stroke-linecap='round' stroke-linejoin='round' cx='6' cy='6' r='6'/%3e%3cpath d='M8 6H4M6 8V4' stroke='%23414042' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3cg transform='translate(109 46)'%3e%3ccircle stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round' cx='4.9' cy='5.4' r='4.6'/%3e%3ccircle fill='%237C87A5' fill-rule='nonzero' cx='4.9' cy='5.4' r='3.3'/%3e%3ccircle stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round' cx='4.9' cy='5.4' r='4.6'/%3e%3c/g%3e%3cg%3e%3cpath d='M149 44h50c.5 0 1 .5 1 1v14c0 .6-.5 1-1 1h-50a1 1 0 0 1-1-1V45c0-.5.5-1 1-1z' stroke='%237C87A5' fill='white' fill-rule='nonzero' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M200 44v15c0 .6-.5 1-1 1h-50a1 1 0 0 1-1-1v-3h45a3 3 0 0 0 3-3v-9h4z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M196 44h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M193.3 40v4h2.7v-3.3c0-.4-.4-.7-1-.7h-1.8z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M196 44h-8v-3c0-.6.5-1 1-1h6c.6 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M160 44h-8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M157.3 40v4h2.7v-3.3c0-.4-.4-.7-1-.7h-1.7z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M160 44h-8v-3c0-.6.5-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M184 44h-8v-3c0-.6.4-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M181.3 40v4h2.7v-3.3c0-.4-.4-.7-1-.7h-1.8z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M184 44h-8v-3c0-.6.4-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M172 44h-8v-3c0-.6.4-1 1-1h6c.5 0 1 .5 1 1v3z' fill='white' fill-rule='nonzero'/%3e%3cpath d='M169.3 40v4h2.7v-3.3c0-.4-.4-.7-1-.7h-1.8z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M172 44h-8v-3c0-.6.4-1 1-1h6c.5 0 1 .5 1 1v3z' stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cg transform='translate(157 46)'%3e%3ccircle stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round' cx='4.8' cy='5.4' r='4.6'/%3e%3ccircle fill='%237C87A5' fill-rule='nonzero' cx='4.8' cy='5.4' r='3.3'/%3e%3ccircle stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round' cx='4.8' cy='5.4' r='4.6'/%3e%3c/g%3e%3cg transform='translate(169 46)'%3e%3ccircle stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round' cx='5' cy='5.4' r='4.6'/%3e%3ccircle fill='%237C87A5' fill-rule='nonzero' cx='5' cy='5.4' r='3.3'/%3e%3ccircle stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round' cx='5' cy='5.4' r='4.6'/%3e%3c/g%3e%3cg transform='translate(181 46)'%3e%3ccircle stroke='%237C87A5' stroke-linecap='round' stroke-linejoin='round' cx='5.2' cy='5.4' r='4.6'/%3e%3ccircle fill='%237C87A5' fill-rule='nonzero' cx='5.2' cy='5.4' r='3.3'/%3e%3ccircle stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round' cx='5.2' cy='5.4' r='4.6'/%3e%3c/g%3e%3c/g%3e%3cpath d='M100 68H6a2 2 0 0 1-2-2v-2h84v-4h12v8zM128 46v12a2 2 0 0 1-2 2H88v-4h34a2 2 0 0 0 2-2V44h2a2 2 0 0 1 2 2zM87 43H64l-12-8H4v2h48l12 8h24v-1c0-.5-.5-1-1-1z' stroke='%23231F20' fill='%23231F20' fill-rule='nonzero' opacity='.1' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e";
 
 var entry = {
   name: 'LEGO BLE Device',
   extensionId: 'legoble',
+  extensionURL: 'https://bricklife.com/xcratch/legoble.mjs',
   collaborator: 'bricklife',
   iconURL: img$2,
   insetIconURL: img$1,
   description: /*#__PURE__*/react.createElement(FormattedMessage, {
-    defaultMessage: "General and advanced extension for LEGO Wireless Protocol.",
+    defaultMessage: "Build with motors and sensors.",
     id: "gui.extension.legoble.description"
   }),
   featured: true,
@@ -8291,7 +8292,7 @@ var entry = {
   connectionSmallIconURL: img$1,
   connectingMessage: /*#__PURE__*/react.createElement(FormattedMessage, {
     defaultMessage: "Connecting",
-    id: "gui.extension.boost.connectingMessage"
+    id: "gui.extension.legoble.connectingMessage"
   }),
   helpLink: 'https://scratch.mit.edu/boost'
 };
@@ -8935,127 +8936,6 @@ var Color = {
 };
 var color = Color;
 
-var setupTranslations = function setupTranslations(formatMessage) {
-  var extTranslations = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-  var localeSetup = formatMessage.setup();
-  var translations = {
-    'ja': {
-      'legobluetooth.motorPWM': '[PORT] モーターを [POWER] %のパワーで回す',
-      'legobluetooth.motorStop': '[PORT] モーターを止める',
-      'legobluetooth.motorRunFor': '[PORT] モーターを [DIRECTION] 方向に [VALUE] [UNIT] 回す',
-      'legobluetooth.motorGoDirectionToPosition': '[PORT] モーターを [DIRECTION] で位置 [POSITION] まで回す',
-      'legobluetooth.motorStart': '[PORT] モーターを [DIRECTION] 方向に回す',
-      'legobluetooth.motorSetSpeed': '[PORT] スピードを [SPEED] %にする',
-      'legobluetooth.getRelativePosition': '[PORT] 相対位置',
-      'legobluetooth.getPosition': '[PORT] 位置',
-      'legobluetooth.motorResetRelativePosition': '[PORT] 相対位置を [RELATIVE_POSITION] にリセットする',
-      'legobluetooth.displayImageFor': '[MATRIX] を [DURATION] 秒間オンにする',
-      'legobluetooth.displayImage': '[MATRIX] をオンにする',
-      'legobluetooth.displayText': '[TEXT] を表示する',
-      'legobluetooth.displayClear': 'すべてのピクセルをオフにする',
-      'legobluetooth.displaySetBrightness': 'ピクセルの明るさを [BRIGHTNESS] %にする',
-      'legobluetooth.displaySetPixel': '[X] , [Y] のピクセルの明るさを [BRIGHTNESS] %にする',
-      'legobluetooth.centerButtonLights': 'センターボタンのライトを [COLOR] にする',
-      'legobluetooth.ultrasonicLightUp': '[PORT] を [LIGHT0] [LIGHT1] [LIGHT2] [LIGHT3] でライトアップする',
-      'legobluetooth.getColor': '[PORT] 色',
-      'legobluetooth.getDistance': '[PORT] 距離',
-      'legobluetooth.getForce': '[PORT] 圧力',
-      'legobluetooth.getTilt': '[PORT] 傾き [XY]',
-      'legobluetooth.setHubLEDColor': 'ハブのLEDを [COLOR] にする',
-      'legobluetooth.getHubTilt': 'ハブの傾き [XYZ]',
-      'legobluetooth.getAngle': '[AXIS] 角',
-      'legobluetooth.getName': '名前',
-      'legobluetooth.getFirmwareVersion': 'ファームウェアバージョン',
-      'legobluetooth.getBatteryLevel': '電池残量',
-      'legobluetooth.rotations': '回転',
-      'legobluetooth.degrees': '度',
-      'legobluetooth.seconds': '秒',
-      'legobluetooth.shortestPath': '最短経路',
-      'legobluetooth.clockwise': '時計回り',
-      'legobluetooth.counterclockwise': '反時計回り',
-      'legobluetooth.black': '(0) 黒',
-      'legobluetooth.pink': '(1) ピンク',
-      'legobluetooth.purple': '(2) 紫',
-      'legobluetooth.blue': '(3) 青',
-      'legobluetooth.lightBlue': '(4) 水色',
-      'legobluetooth.lightGreen': '(5) 明るい緑',
-      'legobluetooth.green': '(6) 緑',
-      'legobluetooth.yellow': '(7) 黄色',
-      'legobluetooth.orange': '(8) オレンジ',
-      'legobluetooth.red': '(9) 赤',
-      'legobluetooth.white': '(10) 白',
-      'legobluetooth.noColor': '(-1) 色なし',
-      'legobluetooth.pitch': 'ピッチ',
-      'legobluetooth.roll': 'ロール',
-      'legobluetooth.yaw': 'ヨー'
-    },
-    'ja-Hira': {
-      'legobluetooth.motorPWM': '[PORT] モーターを [POWER] %のパワーでまわす',
-      'legobluetooth.motorStop': '[PORT] モーターをとめる',
-      'legobluetooth.motorRunFor': '[PORT] モーターを [DIRECTION] ほうこうに [VALUE] [UNIT] まわす',
-      'legobluetooth.motorGoDirectionToPosition': '[PORT] モーターを [DIRECTION] でいち [POSITION] までまわす',
-      'legobluetooth.motorStart': '[PORT] モーターを [DIRECTION] ほうこうにまわす',
-      'legobluetooth.motorSetSpeed': '[PORT] スピードを [SPEED] %にする',
-      'legobluetooth.getRelativePosition': '[PORT] そうたいいち',
-      'legobluetooth.getPosition': '[PORT] いち',
-      'legobluetooth.motorResetRelativePosition': '[PORT] そうたいいちを [RELATIVE_POSITION] にリセットする',
-      'legobluetooth.displayImageFor': '[MATRIX] を [DURATION] びょうかんオンにする',
-      'legobluetooth.displayImage': '[MATRIX] をオンにする',
-      'legobluetooth.displayText': '[TEXT] をひょうじする',
-      'legobluetooth.displayClear': 'すべてのピクセルをオフにする',
-      'legobluetooth.displaySetBrightness': 'ピクセルのあかるさを [BRIGHTNESS] %にする',
-      'legobluetooth.displaySetPixel': '[X] , [Y] のピクセルのあかるさを [BRIGHTNESS] %にする',
-      'legobluetooth.centerButtonLights': 'センターボタンのライトを [COLOR] にする',
-      'legobluetooth.ultrasonicLightUp': '[PORT] を [LIGHT0] [LIGHT1] [LIGHT2] [LIGHT3] でライトアップする',
-      'legobluetooth.getColor': '[PORT] いろ',
-      'legobluetooth.getDistance': '[PORT] きょり',
-      'legobluetooth.getForce': '[PORT] あつりょく',
-      'legobluetooth.getTilt': '[PORT] かたむき [XY]',
-      'legobluetooth.setHubLEDColor': 'ハブのLEDを [COLOR] にする',
-      'legobluetooth.getHubTilt': 'ハブのかたむき [XYZ]',
-      'legobluetooth.getAngle': '[AXIS] かく',
-      'legobluetooth.getName': 'なまえ',
-      'legobluetooth.getFirmwareVersion': 'ファームウェアバージョン',
-      'legobluetooth.getBatteryLevel': 'でんちざんりょう',
-      'legobluetooth.rotations': 'かいてん',
-      'legobluetooth.degrees': 'ど',
-      'legobluetooth.seconds': 'びょう',
-      'legobluetooth.shortestPath': 'さいたんきょり',
-      'legobluetooth.clockwise': 'とけいまわり',
-      'legobluetooth.counterclockwise': 'はんとけいまわり',
-      'legobluetooth.black': '(0) くろ',
-      'legobluetooth.pink': '(1) ピンク',
-      'legobluetooth.purple': '(2) むらさき',
-      'legobluetooth.blue': '(3) あお',
-      'legobluetooth.lightBlue': '(4) みずいろ',
-      'legobluetooth.lightGreen': '(5) あかるいみどり',
-      'legobluetooth.green': '(6) みどり',
-      'legobluetooth.yellow': '(7) きいろ',
-      'legobluetooth.orange': '(8) オレンジ',
-      'legobluetooth.red': '(9) あか',
-      'legobluetooth.white': '(10) しろ',
-      'legobluetooth.noColor': '(-1) いろなし',
-      'legobluetooth.pitch': 'ピッチ',
-      'legobluetooth.roll': 'ロール',
-      'legobluetooth.yaw': 'ヨー'
-    }
-  };
-
-  for (var locale in translations) {
-    if (extTranslations[locale]) {
-      Object.assign(translations[locale], extTranslations[locale]);
-    }
-
-    if (!localeSetup.translations[locale]) {
-      localeSetup.translations[locale] = {};
-    }
-
-    Object.assign(localeSetup.translations[locale], translations[locale]);
-  }
-};
-
-var setupTranslations_1 = setupTranslations;
-
 var BLESendInterval = 100;
 
 var waitPromise = function waitPromise() {
@@ -9098,7 +8978,7 @@ var BleBaseBlocks = /*#__PURE__*/function () {
         opcode: 'motorPWM',
         text: formatMessage({
           id: 'legobluetooth.motorPWM',
-          default: '使电机 [PORT] 工作在 [POWER] % 功率'
+          default: '[PORT] start motor at [POWER] % power'
         }),
         blockType: blockType.COMMAND,
         arguments: {
@@ -9295,7 +9175,7 @@ var BleBaseBlocks = /*#__PURE__*/function () {
           COLOR: {
             type: argumentType.NUMBER,
             menu: 'LED_COLOR',
-            defaultValue: color.BLUE
+            defaultValue: 3
           }
         }
       }];
@@ -9324,14 +9204,6 @@ var BleBaseBlocks = /*#__PURE__*/function () {
           text: formatMessage({
             id: 'legobluetooth.getName',
             default: 'name'
-          }),
-          blockType: blockType.REPORTER
-        });
-        blocks.push({
-          opcode: 'getFirmwareVersion',
-          text: formatMessage({
-            id: 'legobluetooth.getFirmwareVersion',
-            default: 'firmware version'
           }),
           blockType: blockType.REPORTER
         });
@@ -9665,19 +9537,9 @@ var BleBaseBlocks = /*#__PURE__*/function () {
       return this._peripheral.name ? this._peripheral.name : "";
     }
   }, {
-    key: "getFirmwareVersion",
-    value: function getFirmwareVersion() {
-      return this._peripheral.firmwareVersion ? this._peripheral.firmwareVersion : "";
-    }
-  }, {
     key: "getBatteryLevel",
     value: function getBatteryLevel() {
       return this._peripheral.batteryLevel;
-    }
-  }, {
-    key: "setupTranslations",
-    value: function setupTranslations(formatMessage) {
-      setupTranslations_1(formatMessage);
     }
   }]);
 
@@ -12708,11 +12570,8 @@ var IOType = {
   TECHNIC_COLOR_SENSOR: 0x3d,
   TECHNIC_DISTANCE_SENSOR: 0x3e,
   TECHNIC_FORCE_SENSOR: 0x3f,
-  TECHNIC_SMALL_ANGULAR_MOTOR: 0x41,
   MARIO_COLOR_BARCODE_SENSOR: 0x49,
-  MARIO_PANTS: 0x4a,
-  TECHNIC_MEDIUM_ANGULAR_MOTOR_GRAY: 0x4b,
-  TECHNIC_LARGE_ANGULAR_MOTOR_GRAY: 0x4c
+  MARIO_PANTS: 0x4a
 };
 var ioType = IOType;
 
@@ -12739,9 +12598,6 @@ var GenericDevice = /*#__PURE__*/function () {
         case ioType.TECHNIC_XL_MOTOR:
         case ioType.TECHNIC_MEDIUM_ANGULAR_MOTOR:
         case ioType.TECHNIC_LARGE_ANGULAR_MOTOR:
-        case ioType.TECHNIC_SMALL_ANGULAR_MOTOR:
-        case ioType.TECHNIC_MEDIUM_ANGULAR_MOTOR_GRAY:
-        case ioType.TECHNIC_LARGE_ANGULAR_MOTOR_GRAY:
           return 2;
         // Relative Position
 
@@ -12772,10 +12628,6 @@ var GenericDevice = /*#__PURE__*/function () {
         case ioType.DUPLO_TRAIN_BASE_SPEEDOMETER:
           return 1;
         // Driving Distance
-
-        case ioType.REMOTE_POWER_CONTROL_BUTTON:
-          return 0;
-        // Button
 
         case ioType.TECHNIC_HUB_TILT_SENSOR:
           return 0;
@@ -12825,9 +12677,6 @@ var GenericDevice = /*#__PURE__*/function () {
         case ioType.TECHNIC_XL_MOTOR:
         case ioType.TECHNIC_MEDIUM_ANGULAR_MOTOR:
         case ioType.TECHNIC_LARGE_ANGULAR_MOTOR:
-        case ioType.TECHNIC_SMALL_ANGULAR_MOTOR:
-        case ioType.TECHNIC_MEDIUM_ANGULAR_MOTOR_GRAY:
-        case ioType.TECHNIC_LARGE_ANGULAR_MOTOR_GRAY:
           this._inputValues = {
             relativePosition: buffer.readInt32LE(0)
           };
@@ -12869,12 +12718,6 @@ var GenericDevice = /*#__PURE__*/function () {
         case ioType.DUPLO_TRAIN_BASE_SPEEDOMETER:
           this._inputValues = {
             drivingDistance: buffer.readInt32LE(0)
-          };
-          break;
-
-        case ioType.REMOTE_POWER_CONTROL_BUTTON:
-          this._inputValues = {
-            button: buffer.readInt8(0)
           };
           break;
 
@@ -12953,9 +12796,6 @@ var Motor = /*#__PURE__*/function (_GenericDevice) {
       case ioType.TECHNIC_XL_MOTOR:
       case ioType.TECHNIC_MEDIUM_ANGULAR_MOTOR:
       case ioType.TECHNIC_LARGE_ANGULAR_MOTOR:
-      case ioType.TECHNIC_SMALL_ANGULAR_MOTOR:
-      case ioType.TECHNIC_MEDIUM_ANGULAR_MOTOR_GRAY:
-      case ioType.TECHNIC_LARGE_ANGULAR_MOTOR_GRAY:
         _this._canUseSpeed = true;
         _this._canUsePosition = true;
         _this._speed = 75;
@@ -13007,9 +12847,6 @@ var createDevice = function createDevice(ioType$1) {
     case ioType.TECHNIC_XL_MOTOR:
     case ioType.TECHNIC_MEDIUM_ANGULAR_MOTOR:
     case ioType.TECHNIC_LARGE_ANGULAR_MOTOR:
-    case ioType.TECHNIC_SMALL_ANGULAR_MOTOR:
-    case ioType.TECHNIC_MEDIUM_ANGULAR_MOTOR_GRAY:
-    case ioType.TECHNIC_LARGE_ANGULAR_MOTOR_GRAY:
       return new Motor(ioType$1);
 
     default:
@@ -13092,7 +12929,6 @@ var Hub = /*#__PURE__*/function () {
     this._extensionId = extensionId;
     this._hubType = hubType;
     this._name = null;
-    this._firmwareVersion = null;
     this._batteryLevel = 0;
     this._devices = [];
     this._firstNotificationCallback = null;
@@ -13115,11 +12951,6 @@ var Hub = /*#__PURE__*/function () {
     key: "name",
     get: function get() {
       return this._name;
-    }
-  }, {
-    key: "firmwareVersion",
-    get: function get() {
-      return this._firmwareVersion;
     }
   }, {
     key: "batteryLevel",
@@ -13192,7 +13023,7 @@ var Hub = /*#__PURE__*/function () {
       this._firstNotificationCallback = function () {
         _this.sendMessage(MessageType.HUB_PROPERTIES, [HubPropertyReference.ADVERTISING_NAME, HubPropertyOperation.ENABLE_UPDATES], false);
 
-        _this.sendMessage(MessageType.HUB_PROPERTIES, [HubPropertyReference.FW_VERSION, HubPropertyOperation.REQUEST_UPDATE]);
+        _this.sendMessage(MessageType.HUB_PROPERTIES, [HubPropertyReference.BATTERY_VOLTAGE, HubPropertyOperation.REQUEST_UPDATE]);
 
         _this._startPollingBatteryLevel();
       };
@@ -13223,18 +13054,6 @@ var Hub = /*#__PURE__*/function () {
                   this._name = new _TextDecoder().decode(uint8Array);
                 } else {
                   this._name = 'unsupported';
-                }
-
-                break;
-
-              case HubPropertyReference.FW_VERSION:
-                var value = data.slice(5);
-
-                if (value.length == 4) {
-                  var s = value.reduce(function (output, elem) {
-                    return ('0' + (elem & 0xff).toString(16)).slice(-2) + output;
-                  }, '');
-                  this._firmwareVersion = s.slice(0, 1) + '.' + s.slice(1, 2) + '.' + s.slice(2, 4) + '.' + s.slice(4);
                 }
 
                 break;
@@ -13374,7 +13193,6 @@ var Hub = /*#__PURE__*/function () {
     key: "reset",
     value: function reset() {
       this._name = null;
-      this._firmwareVersion = null;
       this._batteryLevel = 0;
       this._devices = [];
       this._outputCommandFeedbackCallbacks = [];
@@ -13409,7 +13227,6 @@ var Hub = /*#__PURE__*/function () {
     value: function _startPollingBatteryLevel() {
       var _this3 = this;
 
-      this.sendMessage(MessageType.HUB_PROPERTIES, [HubPropertyReference.BATTERY_VOLTAGE, HubPropertyOperation.REQUEST_UPDATE]);
       this._pollingId = window.setInterval(function () {
         _this3.sendMessage(MessageType.HUB_PROPERTIES, [HubPropertyReference.BATTERY_VOLTAGE, HubPropertyOperation.REQUEST_UPDATE]);
       }, PollingInterval);
@@ -13597,6 +13414,129 @@ var Hub = /*#__PURE__*/function () {
 }();
 
 var hub = Hub;
+
+var setupTranslations = function setupTranslations(formatMessage) {
+  var extTranslations = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  var localeSetup = formatMessage.setup();
+  var translations = {
+    'zh': {
+      'legobluetooth.motorPWM': '将马达 [PORT] 的功率设置为 [POWER] %',
+      'legobluetooth.motorStop': '停止马达 [PORT] ',
+      'legobluetooth.motorRunFor': '使马达[PORT] 向 [DIRECTION] 方向 转动[VALUE] [UNIT]',
+      'legobluetooth.motorStart': '启动马达[PORT] 方向：[DIRECTION]',
+      'legobluetooth.motorSetSpeed': '将马达[PORT] 的速度设置为[SPEED] %',
+      'legobluetooth.getRelativePosition': '获取马达[PORT] 的相对位置',
+      'legobluetooth.motorResetRelativePosition': '将马达[PORT] 的相对位置重新设置为 [RELATIVE_POSITION]',
+      'legobluetooth.getColor': '设置端口[PORT] 的颜色',
+      'legobluetooth.getDistance': '获得端口[PORT] 的距离',
+      'legobluetooth.getForce': '获得端口[PORT] 的压力',
+      'legobluetooth.getTilt': '获得端口[PORT] 在方向[XY] 上的倾斜角度',
+      'legobluetooth.setHubLEDColor': '将集线器的LED颜色设置为[COLOR]',
+      'legobluetooth.getHubTilt': '获得集线器在[XYZ] 方向上的倾斜角度',
+      'legobluetooth.getName': '名字',
+      'legobluetooth.getBatteryLevel': '电池余量',
+      'legobluetooth.clockwise': '顺时针',
+      'legobluetooth.counterclockwise': '逆时针',
+      'legobluetooth.rotations': '方向',
+      'legobluetooth.degrees': '度',
+      'legobluetooth.seconds': '秒',
+      'legobluetooth.black': '(0) 黑',
+      'legobluetooth.pink': '(1) 粉',
+      'legobluetooth.purple': '(2) 紫',
+      'legobluetooth.blue': '(3) 蓝',
+      'legobluetooth.lightBlue': '(4) 浅蓝',
+      'legobluetooth.lightGreen': '(5) 浅绿',
+      'legobluetooth.green': '(6) 绿',
+      'legobluetooth.yellow': '(7) 黄',
+      'legobluetooth.orange': '(8) 橙',
+      'legobluetooth.red': '(9) 红',
+      'legobluetooth.white': '(10) 白',
+      'legobluetooth.noColor': '(-1) 透明'
+    },
+    'ja': {
+      'legobluetooth.motorPWM': '[PORT] モーターを [POWER] %のパワーで回す',
+      'legobluetooth.motorStop': '[PORT] モーターを止める',
+      'legobluetooth.motorRunFor': '[PORT] モーターを [DIRECTION] 方向に [VALUE] [UNIT] 回す',
+      'legobluetooth.motorStart': '[PORT] モーターを [DIRECTION] 方向に回す',
+      'legobluetooth.motorSetSpeed': '[PORT] スピードを [SPEED] %にする',
+      'legobluetooth.getRelativePosition': '[PORT] 相対位置',
+      'legobluetooth.motorResetRelativePosition': '[PORT] 相対位置を [RELATIVE_POSITION] にリセットする',
+      'legobluetooth.getColor': '[PORT] 色',
+      'legobluetooth.getDistance': '[PORT] 距離',
+      'legobluetooth.getForce': '[PORT] 圧力',
+      'legobluetooth.getTilt': '[PORT] 傾き [XY]',
+      'legobluetooth.setHubLEDColor': 'ハブのLEDを [COLOR] にする',
+      'legobluetooth.getHubTilt': 'ハブの傾き [XYZ]',
+      'legobluetooth.getName': '名前',
+      'legobluetooth.getBatteryLevel': '電池残量',
+      'legobluetooth.clockwise': '時計回り',
+      'legobluetooth.counterclockwise': '反時計回り',
+      'legobluetooth.rotations': '回転',
+      'legobluetooth.degrees': '度',
+      'legobluetooth.seconds': '秒',
+      'legobluetooth.black': '(0) 黒',
+      'legobluetooth.pink': '(1) ピンク',
+      'legobluetooth.purple': '(2) 紫',
+      'legobluetooth.blue': '(3) 青',
+      'legobluetooth.lightBlue': '(4) 水色',
+      'legobluetooth.lightGreen': '(5) 明るい緑',
+      'legobluetooth.green': '(6) 緑',
+      'legobluetooth.yellow': '(7) 黄色',
+      'legobluetooth.orange': '(8) オレンジ',
+      'legobluetooth.red': '(9) 赤',
+      'legobluetooth.white': '(10) 白',
+      'legobluetooth.noColor': '(-1) 色なし'
+    },
+    'ja-Hira': {
+      'legobluetooth.motorPWM': '[PORT] モーターを [POWER] %のパワーでまわす',
+      'legobluetooth.motorStop': '[PORT] モーターをとめる',
+      'legobluetooth.motorRunFor': '[PORT] モーターを [DIRECTION] ほうこうに [VALUE] [UNIT] まわす',
+      'legobluetooth.motorStart': '[PORT] モーターを [DIRECTION] ほうこうにまわす',
+      'legobluetooth.motorSetSpeed': '[PORT] スピードを [SPEED] %にする',
+      'legobluetooth.getRelativePosition': '[PORT] そうたいいち',
+      'legobluetooth.motorResetRelativePosition': '[PORT] そうたいいちを [RELATIVE_POSITION] にリセットする',
+      'legobluetooth.getColor': '[PORT] いろ',
+      'legobluetooth.getDistance': '[PORT] きょり',
+      'legobluetooth.getForce': '[PORT] あつりょく',
+      'legobluetooth.getTilt': '[PORT] かたむき [XY]',
+      'legobluetooth.setHubLEDColor': 'ハブのLEDを [COLOR] にする',
+      'legobluetooth.getHubTilt': 'ハブのかたむき [XYZ]',
+      'legobluetooth.getName': 'なまえ',
+      'legobluetooth.getBatteryLevel': 'でんちざんりょう',
+      'legobluetooth.clockwise': 'とけいまわり',
+      'legobluetooth.counterclockwise': 'はんとけいまわり',
+      'legobluetooth.rotations': 'かいてん',
+      'legobluetooth.degrees': 'ど',
+      'legobluetooth.seconds': 'びょう',
+      'legobluetooth.black': '(0) くろ',
+      'legobluetooth.pink': '(1) ピンク',
+      'legobluetooth.purple': '(2) むらさき',
+      'legobluetooth.blue': '(3) あお',
+      'legobluetooth.lightBlue': '(4) みずいろ',
+      'legobluetooth.lightGreen': '(5) あかるいみどり',
+      'legobluetooth.green': '(6) みどり',
+      'legobluetooth.yellow': '(7) きいろ',
+      'legobluetooth.orange': '(8) オレンジ',
+      'legobluetooth.red': '(9) あか',
+      'legobluetooth.white': '(10) しろ',
+      'legobluetooth.noColor': '(-1) いろなし'
+    }
+  };
+
+  for (var locale in translations) {
+    if (extTranslations[locale]) {
+      Object.assign(translations[locale], extTranslations[locale]);
+    }
+
+    if (!localeSetup.translations[locale]) {
+      localeSetup.translations[locale] = {};
+    }
+
+    Object.assign(localeSetup.translations[locale], translations[locale]);
+  }
+};
+
+var setupTranslations_1 = setupTranslations;
 
 var formatMessageParse = createCommonjsModule(function (module, exports) {
   /*::
@@ -15978,9 +15918,9 @@ var formatMessage$1 = createCommonjsModule(function (module, exports) {
   module.exports = namespace();
 });
 
-var blockIconURI = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAUKADAAQAAAABAAAAUAAAAAAx4ExPAAAC2ElEQVR4Ae3avW4TQRDA8TuDJcvCjQtLuEQiTXqgtngCoEwHCGh4AUv+kvwMgEQ63oIQWa6Agi5l6DAP4Ciy5eKYOXGR45Vud/DZ6OB/Rc7end3b+d36EjkTRRwIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIILBbgTh0+iRJ4tFo9EzOT2XMoZxvhY4tQ1wcxxeyzjM5H/d6vfdyTkLWHQQ4Ho9vr1arD4LWCZm07DGCd1qtVo+63e5PXy43fQG684bDYYrXaDSSe/cfxO12O6rX676hpeq/vLyMZrNZ9PXL52Q+n3d+b5iHvp14w5dlpVJ5LoivFe/R4ydxq9WK5O74hpWuX3NqNpvR3YOD+Pv5ebJcLu9Mp9Mfk8nkW14ylbxO7RM8feZFuvNqtZq+/KcPzVFz1SSz3PMS9gLK4EOdQD+2/8uxlmuae17eIc/A9Lft5jPv3ds3efOWru/Fy1dXa85ylR3o/UsjZAdeTcwLVwBA18TUAqCJyw0G0DUxtQBo4nKDAXRNTC0AmrjcYABdE1MLgCYuNxhA18TUAqCJyw0G0DUxtQBo4nKDAXRNTC0AmrjcYABdE1MLgCYuN9j7jbQ7JL9l/Zvd/Mi/01v0N+nswC3vI4AAbimw5fDCn4Gb6yn6mbM5v+/9rp/JfIR9d8DT792BUhtyof8f1dqR7P+lOmfIndUxeugcg8Ggkb7Z0w+53ryIdfuWG7IDz3QSLbyxHmtj0jms47eM38u6vYCye441Ea1aWiwWwTlprI7RAdkcwYMLCMyuuet1e+sD5WOg5W0ncu6ElLdtlIlJHvFpv9/3lokVYHZtin2tO+QZmEiB5ZHWy2nd3KeTj9cWmvMmxdNCRXkRVO2ZM5e5S6+5j3V7d2C2cr2jISW+svA/KpXNrlP0uazrLtqB+RBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBAor8Av1TQfBCyGec4AAAAASUVORK5CYII=';
+var blockIconURI = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAUKADAAQAAAABAAAAUAAAAAASKG51AAACn0lEQVR4Ae3aT07bQBTHcdug7NoVWVQp616AVRFVlIt0xwnKplXzb9FNj4E4B5EquuIWNGKRG0RVzHsWoweVPcbPwYL0GynKxJ7fZN7HE0eKJkl4IIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIFAjkNacL07P5/OTzWZzJm+O8jx/95TMa+2TpumtzP06y7Kf4/H4V10de3UdptPpV0E7l+cH6fumrv8OnNcatdbPw+Hw72KxiCJGV6DgfZKBFnI1ksPD92m/3096vd4OGFWXsF6vk9Vqldzc/MnlW5dL7cPYSsyqhyrOfJGVlyreYDDYeTytWBeI1qo1S+3Z/a2rkqkO8EiTuvL+t8eDmguDqvqjgHIFih+MXf/aluGEmoNBWR89FgWsCnHcBPat2ax1dfW7WeCF9z4+/uiaISvQxWYhAM3C1QLQxWYhAM3C1QLQxWYhAM3C1QLQxWYhAM3C1QLQxWYhAM3C1QLQxWYhAM3C1QLQxWYhAM3C1QLQxWYhAM3C1QLQxWYh9z/SNsTjlvef3cejPN+7bf+Tzgpsea0ABLClQMs4K7Al4NZ/RMrms+0bd9lnlB3r4gfNDdjF5MpQ2h7b9rzdgJ5CZrNZdDeYZ8yyzGQyycuOP8ex6D3wfrNholu+vI+QDWN5x2mSC58VPrtJNvQN2TBWOP7vaxRQOl9rQPfLeR8PssVY3nEa5jqbdxRQt7nKFdjoZsPlctloJeoV1IxmdQwdqyGCu3uX8669J8l965ts8ZrrZkNPRYonue+y2/WHJ+/NdDXv2j3Sukd4NBpdSiEHgvFWXp+0T1r63spTtwefyk39wgvhzb3WeXvrJYcAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIPCCBe4A1CzCO9yATG4AAAAASUVORK5CYII=';
 var formatMessage = formatMessage$1;
-var extensionURL = 'https://bricklife.com/scratch-gui/xcratch/legoble.mjs';
+var extensionURL = 'https://bricklife.com/xcratch/legoble.mjs';
 
 var Scratch3LegoBleBlocks = /*#__PURE__*/function (_BleBaseBlocks) {
   _inherits(Scratch3LegoBleBlocks, _BleBaseBlocks);
@@ -16010,7 +15950,7 @@ var Scratch3LegoBleBlocks = /*#__PURE__*/function (_BleBaseBlocks) {
   }, {
     key: "getInfo",
     value: function getInfo() {
-      this.setupTranslations(formatMessage);
+      setupTranslations_1(formatMessage);
       return {
         id: Scratch3LegoBleBlocks.EXTENSION_ID,
         name: 'LEGO BLE',
